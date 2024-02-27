@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+
+.btn{
+    @apply bg-red-600 text-white py-3 px-7 rounded-lg mx-28 my-16 hover:bg-red-700
+}
+
+@tailwind utilities;
+
+@layer components{
+    .button{
+         @apply bg-green-500 text-white py-3 px-6 rounded-lg mx-32 my-32
+    }
+}
